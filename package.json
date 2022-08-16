@@ -1,0 +1,52 @@
+{
+  "name": "mobrix-engine-plugin-router",
+  "version": "1.0.0",
+  "description": "A routing system to control navigation with mobrix-engine",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "config/rollup.build.config.js"
+  ],
+  "scripts": {
+    "build": "rollup -c ./config/rollup.build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CianciarusoCataldo/mobrix-engine-plugin-router.git"
+  },
+  "author": "Cataldo Cianciaruso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CianciarusoCataldo/mobrix-engine-plugin-router/issues"
+  },
+  "homepage": "https://github.com/CianciarusoCataldo/mobrix-engine-plugin-router#readme",
+  "peerDependencies": {
+    "history": "^4.10.1",
+    "mobrix-engine-tools": "^1.0.3",
+    "mobrix-utils": "^1.0.0",
+    "redux-first-history": "^5.0.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@types/history": "^4.7.8",
+    "@types/jest": "^27.4.0",
+    "@types/mocha": "^9.0.0",
+    "babel-jest": "^27.4.6",
+    "enzyme": "^3.11.0",
+    "history": "^4.10.1",
+    "jest": "^27.4.7",
+    "jest-transform-stub": "^2.0.0",
+    "mobrix-engine-tools": "^1.0.3",
+    "mobrix-utils": "^1.0.0",
+    "redux-first-history": "^5.0.8",
+    "rollup": "^2.44.0",
+    "rollup-plugin-banner2": "^1.2.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "ts-jest": "^27.1.2"
+  }
+}

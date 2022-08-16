@@ -15,24 +15,6 @@ A routing system to control navigation with [MoBrix-engine](https://github.com/C
 
 ---
 
-## Summary
-
-- [Getting started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [API](#api)
-  - [Config](#config)
-  - [Actions](#actions)
-  - [Selectors](#selectors)
-- [Integration with other plugins](#integration-with-other-plugins)
-- [Included libraries](#included-libraries)
-- [Authors](#authors)
-- [License](#license)
-
-<br>
-
----
-
 ## Getting started
 
 <br>
@@ -234,7 +216,7 @@ export const RouterDebugComponent = () => {
 
 ## Integration with other plugins
 
-- This plugin expose some fields to work with any other plugin. If you want to interact with it, using your custom plugin, just check the add an `interaction` for `mobrix-engine-router`. With the given field and the actual engine config, you can add custom params to the plugin (look at the [config](#config) section). For example, to add a custom function to be called when location change:
+- This plugin expose some fields to work with any other plugin. If you want to interact with it, using your custom plugin, just check the add an `interaction` for `router`. With the given field and the actual engine config, you can add custom params to the plugin (look at the [config](#config) section). For example, to add a custom function to be called when location change:
 
 ```tsx
 //Just a skeleton of a custom plugin that interacts with router plugin
